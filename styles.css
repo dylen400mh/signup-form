@@ -40,6 +40,12 @@ img {
     gap: 1em;
 }
 
+#form_fields {
+    display: flex;
+    gap: 3em;
+    flex-wrap: wrap;
+}
+
 .form_field {
     display: flex;
     flex-direction: column;
