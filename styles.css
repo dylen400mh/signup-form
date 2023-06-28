@@ -1,6 +1,12 @@
+
+
 body {
   margin: 0px;
   min-width: 375px;
+}
+
+#content {
+    font-family: agdasima;
 }
 
 #content > div, form > div {
@@ -16,6 +22,7 @@ body {
     font-size: 4rem;
     width: 100%;
     text-align: center;
+    font-family: norse-bold, sans-serif;
 }
 
 img {
@@ -42,7 +49,7 @@ img {
 input {
     border: 1px solid #E5E7EB;
     border-radius: 0.5em;
-
+    height: 1rem;
 }
 
 input:focus {
@@ -85,4 +92,16 @@ a {
     #caption {
         width: 437px;
     }
+}
+
+/* title/image custom font */
+@font-face {
+    font-family: norse-bold;
+    src: url(fonts/Norse-Bold.otf);
+}
+
+/* content custom font */
+@font-face {
+    font-family: agdasima;
+    src: url(fonts/Agdasima-Regular.ttf);
 }
