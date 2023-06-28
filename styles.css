@@ -1,16 +1,28 @@
 
 
 body {
-  margin: 0px;
+  margin: 0;
+  min-height: 100vh;
   min-width: 375px;
 }
 
+/* #flex_container {
+    display: flex;
+    min-height: 100vh;
+} */
+
+
+
 #content {
     font-family: agdasima;
+    font-size: 2rem;
 }
 
 #content > div, form > div {
     padding: 20px;
+}
+
+form > div {
     font-size: 1.5rem;
 }
 
@@ -44,6 +56,7 @@ img {
     display: flex;
     gap: 3em;
     flex-wrap: wrap;
+    max-width: 50rem;
 }
 
 .form_field {
@@ -81,6 +94,7 @@ a {
 @media screen and (min-width: 640px) {
     #flex_container {
         display: flex;
+        min-height: 100vh;
     }
 
     #image_container {
