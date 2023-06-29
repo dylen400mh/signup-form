@@ -118,3 +118,8 @@ a {
     font-family: agdasima;
     src: url(fonts/Agdasima-Regular.ttf);
 }
+
+.error {
+    color: red;
+    font-size: 1rem;
+}
